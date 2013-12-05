@@ -1,0 +1,63 @@
+
+/* basic
+------------------------- */
+body{
+    width: 320px;
+    margin: 0 auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+
+/* itemList
+------------------------- */
+.itemList{
+
+}
+
+/* pagination */
+.pagination{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    margin: 0 auto;
+}
+
+.pagination button{
+    
+}
+.pagination button.prev{
+    
+}
+.pagination button.next{
+    
+}
+.pagination button[disabled]{
+    color: #ccc;    
+}
+
+.pagination ul{
+    display: -webkit-box;
+}
+.pagination li{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.pagination li.current{
+    color: red;
+}
+
+/* items */
+ul.items{
+    border-top: 1px solid #ccc;
+    
+}
+ul.items li{
+    border-bottom: 1px solid #ccc;
+}
