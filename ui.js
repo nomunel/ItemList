@@ -37,6 +37,23 @@ fn.init = function(opt){
 
     self.set(self.index);
 }
+fn.createPrevButton = function(){
+    var button = document.createElement('button');
+    prevButton.setAttrebute('type', 'button');
+    prevButton.setAttrebute('class', 'prev');
+    prevButton.innerText = '&lt;';
+    return button;
+}
+fn.createNextButton = function(){
+    var button = document.createElement('button');
+    prevButton.setAttrebute('type', 'button');
+    prevButton.setAttrebute('class', 'next');
+    prevButton.innerText = '&gt;';
+    return button;
+}
+fn.createPagination = function(){
+    
+}
 fn.set = function(setIndex){
     var self = this,
         index = self.index = setIndex,
